@@ -25,7 +25,7 @@ public class CreditsPicture extends Entity implements Updatable{
 		fgg.setColor(Color.YELLOW);
 		fgg.fillRect(0, 0, fgImage.getWidth(null), fgImage.getHeight(null));
 		fgg.setColor(Color.RED);
-		fgg.drawString("Game created by debaimbo", 20, 100);
+		fgg.drawString("Game created, but not finished yet by debaimbo", 20, 100);
 		xfg = (bgImage.getWidth(null)-fgImage.getWidth(null))/2;
 		yfg = (bgImage.getHeight(null)-fgImage.getHeight(null))/2;
 	}
