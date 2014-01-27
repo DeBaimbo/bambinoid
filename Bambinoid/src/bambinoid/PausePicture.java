@@ -24,7 +24,7 @@ public class PausePicture extends Entity implements Updatable {
 		fgg.setColor(Color.BLUE);
 		fgg.fillRect(0, 0, fgImage.getWidth(null), fgImage.getHeight(null));
 		fgg.setColor(Color.YELLOW);
-		fgg.drawString("pause",20,30);
+		fgg.drawString("game paused",20,30);
 		xfg = (bgImage.getWidth(null)-fgImage.getWidth(null))/2;
 		yfg = (bgImage.getHeight(null)-fgImage.getHeight(null))/2;
 	}
