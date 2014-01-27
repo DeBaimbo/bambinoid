@@ -1,0 +1,15 @@
+package bambinoid;
+
+public enum GameState {
+	INTRO,
+	MENU,
+	CREDITS,
+	LEVEL_SIGN,
+	START,
+	PLAY,
+	PAUSE,
+	LIFELOST,
+	GAMEOVER_SIGN,
+	GAMECOMPLETED_SIGN,
+	HIGH_SCORES;
+}
